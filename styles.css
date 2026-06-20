@@ -191,8 +191,7 @@ main {
   margin-bottom: 34px;
 }
 
-.section-heading h2,
-.contact h2 {
+.section-heading h2 {
   margin-top: 8px;
   font-size: clamp(1.8rem, 3vw, 2.6rem);
   line-height: 1.15;
@@ -276,28 +275,6 @@ main {
   color: #526070;
 }
 
-.contact {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 32px;
-  margin: 40px 0 64px;
-  padding: 34px;
-  border-radius: 8px;
-  background: #172033;
-  color: #ffffff;
-}
-
-.contact p:not(.eyebrow) {
-  max-width: 680px;
-  margin-top: 14px;
-  color: #cbd5e1;
-}
-
-.contact .eyebrow {
-  color: #5eead4;
-}
-
 @media (max-width: 860px) {
   .nav {
     align-items: flex-start;
@@ -328,10 +305,6 @@ main {
     min-height: auto;
   }
 
-  .contact {
-    align-items: flex-start;
-    flex-direction: column;
-  }
 }
 
 @media (max-width: 560px) {
@@ -347,8 +320,7 @@ main {
   .profile-panel,
   .about-grid p,
   .skill-card,
-  .timeline-item,
-  .contact {
+  .timeline-item {
     padding: 22px;
   }
 
